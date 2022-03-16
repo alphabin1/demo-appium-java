@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TestCases</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TestCases</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/Testcase.html">Testcase</a> &gt; TestCases</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">14.892s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="formTest()"></a>
+<h3 class="failures">formTest()</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.124', ip: 'fe80:0:0:0:182e:f17f:1775:35f7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/imac/Documents/Proje..., appActivity: com.wdiodemoapp.MainActivity, appPackage: com.wdiodemoapp, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/imac/Documents/Proje..., appActivity: com.wdiodemoapp.MainActivity, automationName: UiAutomator2, deviceName: 2119264710AA0DNM, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3261, deviceName: 2119264710AA0DNM, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 2119264710AA0DNM, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2b76ace6-317c-41c4-98a4-e72c6b1964d6
+*** Element info: {Using=id, value=android:id/button1}
+	at java.base@17.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.2/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at app//io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at app//io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at app//io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at app//io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at app//io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at app//io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at app//page.FormPage.getAlert1(FormPage.java:52)
+	at app//page.FormPage.fillInputField(FormPage.java:27)
+	at app//Testcase.TestCases.formTest(TestCases.java:28)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">formTest()</td>
+<td class="failures">14.892s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>java.io.BufferedInputStream@533bda92
+&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;hierarchy index=&quot;0&quot; class=&quot;hierarchy&quot; rotation=&quot;0&quot; width=&quot;720&quot; height=&quot;1448&quot;&gt;
+  &lt;android.widget.FrameLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.FrameLayout&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+    &lt;android.widget.LinearLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.LinearLayout&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+      &lt;android.widget.FrameLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.FrameLayout&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+        &lt;android.widget.LinearLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.LinearLayout&quot; text=&quot;&quot; resource-id=&quot;com.wdiodemoapp:id/action_bar_root&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+          &lt;android.widget.FrameLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.FrameLayout&quot; text=&quot;&quot; resource-id=&quot;android:id/content&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+            &lt;android.widget.FrameLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.FrameLayout&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+              &lt;android.view.ViewGroup index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.view.ViewGroup&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1448]&quot; displayed=&quot;true&quot;&gt;
+                &lt;android.view.ViewGroup index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.view.ViewGroup&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1392]&quot; displayed=&quot;true&quot;&gt;
+                  &lt;android.widget.FrameLayout index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.FrameLayout&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1392]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.view.ViewGroup index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.view.ViewGroup&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1392]&quot; displayed=&quot;true&quot;&gt;
+                      &lt;android.view.ViewGroup index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.view.ViewGroup&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,0][720,1392]&quot; displayed=&quot;true&quot;&gt;
+                        &lt;android.widget.ScrollView index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.ScrollView&quot; text=&quot;&quot; content-desc=&quot;Home-screen&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,64][720,1392]&quot; displayed=&quot;true&quot;&gt;
+                          &lt;android.view.ViewGroup index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.view.ViewGroup&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,64][720,1241]&quot; displayed=&quot;true&quot;&gt;
+                            &lt;android.widget.ImageView index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.ImageView&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[110,264][610,764]&quot; displayed=&quot;true&quot; /&gt;
+                            &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;WEBDRIVER&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[93,804][528,911]&quot; displayed=&quot;true&quot; /&gt;
+                            &lt;android.widget.ImageView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.ImageView&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[528,804][628,904]&quot; displayed=&quot;true&quot; /&gt;
+                            &lt;android.widget.TextView index=&quot;3&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Demo app for the appium-boilerplate&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[100,931][620,974]&quot; displayed=&quot;true&quot; /&gt;
+                            &lt;android.widget.TextView index=&quot;4&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#983093;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[180,994][360,1178]&quot; displayed=&quot;true&quot; /&gt;
+                            &lt;android.widget.TextView index=&quot;5&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#983090;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[360,994][540,1178]&quot; displayed=&quot;true&quot; /&gt;
+                            &lt;android.widget.TextView index=&quot;6&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Support&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[304,1198][417,1241]&quot; displayed=&quot;true&quot; /&gt;
+                          &lt;/android.view.ViewGroup&gt;
+                        &lt;/android.widget.ScrollView&gt;
+                      &lt;/android.view.ViewGroup&gt;
+                    &lt;/android.view.ViewGroup&gt;
+                  &lt;/android.widget.FrameLayout&gt;
+                &lt;/android.view.ViewGroup&gt;
+                &lt;android.view.ViewGroup index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.view.ViewGroup&quot; text=&quot;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[0,1392][720,1448]&quot; displayed=&quot;true&quot;&gt;
+                  &lt;android.widget.Button index=&quot;0&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.Button&quot; text=&quot;&quot; content-desc=&quot;Home&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;true&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;true&quot; bounds=&quot;[0,1412][120,1448]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#984737;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[34,1412][86,1448]&quot; displayed=&quot;true&quot; /&gt;
+                    &lt;android.widget.TextView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Home&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[22,1464][98,1512]&quot; displayed=&quot;true&quot; /&gt;
+                  &lt;/android.widget.Button&gt;
+                  &lt;android.widget.Button index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.Button&quot; text=&quot;&quot; content-desc=&quot;Webview&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;true&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[120,1412][240,1448]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#984479;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[154,1412][206,1448]&quot; displayed=&quot;true&quot; /&gt;
+                    &lt;android.widget.TextView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Webview&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[124,1464][237,1512]&quot; displayed=&quot;true&quot; /&gt;
+                  &lt;/android.widget.Button&gt;
+                  &lt;android.widget.Button index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.Button&quot; text=&quot;&quot; content-desc=&quot;Login&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;true&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[240,1412][360,1448]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#983874;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[274,1412][326,1448]&quot; displayed=&quot;true&quot; /&gt;
+                    &lt;android.widget.TextView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Login&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[266,1464][335,1512]&quot; displayed=&quot;true&quot; /&gt;
+                  &lt;/android.widget.Button&gt;
+                  &lt;android.widget.Button index=&quot;3&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.Button&quot; text=&quot;&quot; content-desc=&quot;Forms&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;true&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[360,1412][480,1448]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#984043;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[394,1412][446,1448]&quot; displayed=&quot;true&quot; /&gt;
+                    &lt;android.widget.TextView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Forms&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[381,1464][460,1512]&quot; displayed=&quot;true&quot; /&gt;
+                  &lt;/android.widget.Button&gt;
+                  &lt;android.widget.Button index=&quot;4&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.Button&quot; text=&quot;&quot; content-desc=&quot;Swipe&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;true&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[480,1412][600,1448]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#985404;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[514,1412][566,1448]&quot; displayed=&quot;true&quot; /&gt;
+                    &lt;android.widget.TextView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Swipe&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[502,1464][578,1512]&quot; displayed=&quot;true&quot; /&gt;
+                  &lt;/android.widget.Button&gt;
+                  &lt;android.widget.Button index=&quot;5&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.Button&quot; text=&quot;&quot; content-desc=&quot;Drag&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;true&quot; enabled=&quot;true&quot; focusable=&quot;true&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[600,1412][720,1448]&quot; displayed=&quot;true&quot;&gt;
+                    &lt;android.widget.TextView index=&quot;1&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;&amp;#983515;&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[634,1412][686,1448]&quot; displayed=&quot;true&quot; /&gt;
+                    &lt;android.widget.TextView index=&quot;2&quot; package=&quot;com.wdiodemoapp&quot; class=&quot;android.widget.TextView&quot; text=&quot;Drag&quot; checkable=&quot;false&quot; checked=&quot;false&quot; clickable=&quot;false&quot; enabled=&quot;true&quot; focusable=&quot;false&quot; focused=&quot;false&quot; long-clickable=&quot;false&quot; password=&quot;false&quot; scrollable=&quot;false&quot; selected=&quot;false&quot; bounds=&quot;[631,1464][689,1512]&quot; displayed=&quot;true&quot; /&gt;
+                  &lt;/android.widget.Button&gt;
+                &lt;/android.view.ViewGroup&gt;
+              &lt;/android.view.ViewGroup&gt;
+            &lt;/android.widget.FrameLayout&gt;
+          &lt;/android.widget.FrameLayout&gt;
+        &lt;/android.widget.LinearLayout&gt;
+      &lt;/android.widget.FrameLayout&gt;
+    &lt;/android.widget.LinearLayout&gt;
+  &lt;/android.widget.FrameLayout&gt;
+&lt;/hierarchy&gt;
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mar 16, 2022 1:06:01 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 16-Mar-2022, 1:06:07 pm</p>
+</div>
+</div>
+</body>
+</html>
